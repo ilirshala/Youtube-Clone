@@ -1,0 +1,144 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+.header__logo{
+    height: 25px;
+    object-fit: contain;
+    margin-left: 20px;
+}
+.header__input{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid lightgray;
+}
+.header__input > input{
+    flex: 1;
+    border: none;
+    outline: none;
+}
+.header__inputButton{
+    width: 50x !important;
+    background-color: #fafafa;
+    border-left: 1px solid lightgray;
+    color: gray;
+}
+.header__right{
+    display: flex;
+    align-items: center;
+}
+.header__icon{
+    margin-right: 8px;
+}
+ /* XS small devices */
+ @media (max-width: 575px){
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background-color: white;
+    }
+    .header__logo{
+        height: 18px;
+        object-fit: contain;
+        margin-left: 20px;
+    }
+    .header__input{
+        display: flex;
+        align-items: center;
+        width: 40%;
+        border: 1px solid lightgray;
+
+    
+    }
+    .header__input > input{
+        flex: 0.1;
+        border: none;
+        outline: none;
+    }
+    .header__inputButton{
+        width: 50px !important;
+        background-color: #fafafa;
+        border-left: 1px solid lightgray;
+        color: gray;
+        margin-left: -80px;
+    }
+    .header__right{
+        display: flex;
+        align-items: center;
+        margin-right: -100px;
+    }
+    .header__icon{
+        margin-right: 8px;
+    }
+    .header__right .MuiSvgIcon-root{
+        font-size: 15px;
+    }
+    .header__right .MuiAvatar-root{
+        height: 25px;
+        width: 25px;
+    }
+ }
+ @media (min-width: 576px) and (max-width:765px){
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background-color: white;
+    }
+    .header__logo{
+        height: 22px;
+        object-fit: contain;
+        margin-left: 20px;
+    }
+    .header__input{
+        display: flex;
+        align-items: center;
+        width: 40%;
+        border: 1px solid lightgray;
+
+    
+    }
+    .header__input > input{
+        flex: 0.1;
+        border: none;
+        outline: none;
+    }
+    .header__inputButton{
+        width: 50px !important;
+        background-color: #fafafa;
+        border-left: 1px solid lightgray;
+        color: gray;
+      
+    }
+    .header__right{
+        display: flex;
+        align-items: center;
+
+    }
+    .header__icon{
+        margin-right: 8px;
+    }
+    .header__right .MuiSvgIcon-root{
+        font-size: 18px;
+    }
+    .header__right .MuiAvatar-root{
+        height: 30px;
+        width: 30px;
+    }
+ }
